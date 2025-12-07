@@ -1,0 +1,5 @@
+- unzip WindowsDefenderATPOnboardingPackage.zip
+- wget https://raw.githubusercontent.com/microsoft/mdatp-xplat/master/linux/installation/mde_installer.sh
+- chmod +x mde_installer.sh
+- chmod +x MicrosoftDefenderATPOnboardingLinuxServer.py
+- sudo ./mde_installer.sh -i -o MicrosoftDefenderATPOnboardingLinuxServer.py
